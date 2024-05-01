@@ -1,4 +1,4 @@
-All the operations in this project are given below:
+All the operations in this project are respectively:
  • AWS Lambda function, executed at defined intervals via AWS CloudWatch, to retrieve data from the Spotify Web
  API and seamlessly put into an S3 bucket.
  • Another AWS Lambda function triggered when S3 new json gets staged, which efficiently converts raw JSON data into
